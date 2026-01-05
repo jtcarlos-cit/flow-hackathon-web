@@ -12,6 +12,14 @@ const withPWA = require("@ducanh2912/next-pwa").default({
   },
 });
 
-const nextConfig = {}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "standalone",
+  experimental: {
+    outputFileTracingExcludes: {
+      "*": ["cdk/**"],
+    },
+  },
+};
 
-module.exports = withPWA();
+module.exports = withPWA(nextConfig);
