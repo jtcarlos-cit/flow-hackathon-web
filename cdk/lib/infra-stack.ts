@@ -60,7 +60,7 @@ export class InfraStack extends cdk.Stack {
         frontend: {
           phases: {
             preBuild: {
-              commands: ['yarn cache clean', 'yarn install'],
+              commands: ['ls', 'yarn cache clean', 'yarn install'],
             },
             build: {
               commands: ['yarn build'],
