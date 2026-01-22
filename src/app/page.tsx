@@ -7,7 +7,7 @@ const Home = () => {
         <h2 className="text-2xl font-bold tracking-tight">Welcome to iTasks</h2>
         <p className="text-muted-foreground">
           Simplify your task management with ease and efficiency. This website
-          is reviewed by AI for faster implementation. slowness fix
+          is reviewed by AI for faster implementation.
         </p>
       </div>
       <div className="max-w-screen-xl mx-auto">
