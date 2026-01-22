@@ -1,7 +1,6 @@
 import Box from "@/components/box/box";
 
 const Home = () => {
-  console.log("try failing the code review.");
   return (
     <main className="mb-8">
       <div className="max-w-screen-xl mx-auto py-3">
